@@ -87,3 +87,11 @@ par[7].textContent = siteContent["contact"] ["email"];
 //footer
 let footer = document.querySelector("footer");
 footer.textContent = siteContent["footer"] ["copyright"];
+
+//nav color
+nav[0].style.color = "green";
+nav[1].style.color = "green";
+nav[2].style.color = "green";
+nav[3].style.color = "green";
+nav[4].style.color = "green";
+nav[5].style.color = "green";
