@@ -83,3 +83,7 @@ par[4].textContent = siteContent["main-content"] ["vision-content"];
 par[5].textContent = siteContent["contact"] ["address"];
 par[6].textContent = siteContent["contact"] ["phone"];
 par[7].textContent = siteContent["contact"] ["email"];
+
+//footer
+let footer = document.querySelector("footer");
+footer.textContent = siteContent["footer"] ["copyright"];
