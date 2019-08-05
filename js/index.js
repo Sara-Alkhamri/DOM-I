@@ -52,7 +52,7 @@ nav[5].textContent = siteContent["nav"] ["nav-item-6"];
 
 //cta 
 let cta_h1 = document.querySelector("h1");
-cta_h1.textContent = siteContent["cta"] ["cta_h1"];
+cta_h1.textContent = siteContent["cta"]["h1"];
 
 let cta_button = document.querySelector("button");
 cta_button.textContent = siteContent["cta"] ["button"];
