@@ -61,6 +61,7 @@ let cta_img = document.getElementById("cta-img");
 cta_img.src = siteContent["cta"] ["img-src"];
 
 //main content
+//headers
 let headers = document.querySelectorAll("h4");
 headers[0].textContent = siteContent["main-content"] ["features-h4"];
 headers[1].textContent = siteContent["main-content"] ["about-h4"];
@@ -72,3 +73,13 @@ headers[5].textContent = siteContent["contact"] ["contact-h4"];
 let midImg = document.getElementById("middle-img");
 midImg.setAttribute('src', siteContent["main-content"] ["middle-img-src"]);
 
+//paragraphs
+let par = document.querySelectorAll("p");
+par[0].textContent = siteContent["main-content"] ["features-content"];
+par[1].textContent = siteContent["main-content"] ["about-content"];
+par[2].textContent = siteContent["main-content"] ["services-content"];
+par[3].textContent = siteContent["main-content"] ["product-content"];
+par[4].textContent = siteContent["main-content"] ["vision-content"];
+par[5].textContent = siteContent["contact"] ["address"];
+par[6].textContent = siteContent["contact"] ["phone"];
+par[7].textContent = siteContent["contact"] ["email"];
