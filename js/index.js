@@ -50,5 +50,15 @@ nav[3].textContent = siteContent["nav"] ["nav-item-4"];
 nav[4].textContent = siteContent["nav"] ["nav-item-5"];
 nav[5].textContent = siteContent["nav"] ["nav-item-6"];
 
+//cta 
+let cta_h1 = document.querySelector("h1");
+cta_h1.textContent = siteContent["cta"] ["cta_h1"];
 
+let cta_button = document.querySelector("button");
+cta_button.textContent = siteContent["cta"] ["button"];
+
+let cta_img = document.getElementById("cta-img");
+cta_img.src = siteContent["cta"] ["img-src"];
+
+//main content
 
