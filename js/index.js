@@ -60,9 +60,15 @@ nav[5].style.color = "green";
 
 //new nav elements
 
-
-
-
+let tab1 = document.createElement("a");
+let tab2 = document.createElement("a");
+let parent = document.querySelector("nav");
+parent.appendChild(tab1);
+parent.prepend(tab2);
+tab1.innerText = "News";
+tab1.style.color = "green";
+tab2.innerText = "Home";
+tab2.style.color = "green";
 
 //cta 
 let cta_h1 = document.querySelector("h1");
@@ -83,6 +89,14 @@ headers[2].textContent = siteContent["main-content"] ["services-h4"];
 headers[3].textContent = siteContent["main-content"] ["product-h4"];
 headers[4].textContent = siteContent["main-content"] ["vision-h4"];
 headers[5].textContent = siteContent["contact"] ["contact-h4"];
+
+//header colors
+headers[0].style.color = "purple";
+headers[1].style.color = "purple";
+headers[2].style.color = "blue";
+headers[3].style.color = "blue";
+headers[4].style.color = "blue";
+headers[5].style.color = "black";
 
 let midImg = document.getElementById("middle-img");
 midImg.setAttribute('src', siteContent["main-content"] ["middle-img-src"]);
