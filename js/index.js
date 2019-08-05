@@ -50,6 +50,20 @@ nav[3].textContent = siteContent["nav"] ["nav-item-4"];
 nav[4].textContent = siteContent["nav"] ["nav-item-5"];
 nav[5].textContent = siteContent["nav"] ["nav-item-6"];
 
+//nav color
+nav[0].style.color = "green";
+nav[1].style.color = "green";
+nav[2].style.color = "green";
+nav[3].style.color = "green";
+nav[4].style.color = "green";
+nav[5].style.color = "green";
+
+//new nav elements
+
+
+
+
+
 //cta 
 let cta_h1 = document.querySelector("h1");
 cta_h1.textContent = siteContent["cta"]["h1"];
@@ -88,10 +102,3 @@ par[7].textContent = siteContent["contact"] ["email"];
 let footer = document.querySelector("footer");
 footer.textContent = siteContent["footer"] ["copyright"];
 
-//nav color
-nav[0].style.color = "green";
-nav[1].style.color = "green";
-nav[2].style.color = "green";
-nav[3].style.color = "green";
-nav[4].style.color = "green";
-nav[5].style.color = "green";
